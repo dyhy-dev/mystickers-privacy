@@ -1,0 +1,2 @@
+# mystickers-privacy
+Privacy URL
