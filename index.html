@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyStickers — Privacy Policy</title>
+    <style>
+        :root {
+            color-scheme: light dark;
+            --accent: #F7B039;
+            --bg: #ffffff;
+            --bg-card: #f6f6f7;
+            --text: #1c1c1e;
+            --text-secondary: #555;
+            --border: #e0e0e0;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #000000;
+                --bg-card: #1c1c1e;
+                --text: #ffffff;
+                --text-secondary: #a0a0a5;
+                --border: #2c2c2e;
+            }
+        }
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 24px 16px 64px;
+            line-height: 1.55;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+        h1 {
+            margin: 0 0 4px;
+            font-size: 1.6rem;
+            font-weight: 800;
+        }
+        .meta {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+        .lang-switch {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            margin: 16px 0 24px;
+        }
+        .lang-switch a {
+            padding: 6px 14px;
+            border-radius: 14px;
+            background: var(--bg-card);
+            color: var(--text);
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 600;
+            border: 1px solid var(--border);
+        }
+        .lang-switch a.active {
+            background: var(--accent);
+            color: #fff;
+            border-color: var(--accent);
+        }
+        section {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 20px 22px;
+            margin-bottom: 16px;
+        }
+        h2 {
+            margin: 0 0 12px;
+            font-size: 1.1rem;
+            font-weight: 700;
+        }
+        p, ul { margin: 0 0 12px; }
+        p:last-child, ul:last-child { margin-bottom: 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 6px; }
+        a { color: var(--accent); }
+        .lang-block { display: none; }
+        .lang-block.active { display: block; }
+        footer {
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.8rem;
+            margin-top: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>MyStickers — Privacy Policy</h1>
+            <div class="meta">Last updated: 2026-06-06</div>
+            <div class="lang-switch">
+                <a href="#en" id="btn-en" class="active" onclick="setLang('en')">English</a>
+                <a href="#de" id="btn-de" onclick="setLang('de')">Deutsch</a>
+            </div>
+        </header>
+
+        <!-- English -->
+        <div id="lang-en" class="lang-block active">
+            <section>
+                <p>MyStickers respects your privacy. The app is designed to work entirely on-device. We do not collect, transmit, or sell any personal data.</p>
+            </section>
+
+            <section>
+                <h2>What MyStickers does NOT do</h2>
+                <ul>
+                    <li>We do not collect any personally identifiable information.</li>
+                    <li>We do not use analytics, advertising SDKs, or third-party trackers.</li>
+                    <li>We do not transmit your stickers, photos, or any other data to our servers — we don't run any servers.</li>
+                    <li>We do not require a user account.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>What MyStickers stores</h2>
+                <ul>
+                    <li>All stickers, tags, categories, and settings are stored locally on your device.</li>
+                    <li>Optional iCloud sync uses Apple's iCloud Key-Value Store and the iCloud container tied to your Apple ID. This data stays within your personal iCloud and is never accessible to us.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Permissions we request</h2>
+                <ul>
+                    <li><strong>Photo Library access</strong>: requested only when you choose to import a photo as a sticker. The app never accesses your library in the background.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>iMessage Extension</h2>
+                <p>The companion iMessage sticker keyboard reads only the stickers you created in the host app, via a shared local container. It does not transmit any data.</p>
+            </section>
+
+            <section>
+                <h2>Sharing</h2>
+                <p>When you tap "Share", iOS's standard share sheet is used. We have no visibility into or control over what happens after a file leaves the app.</p>
+            </section>
+
+            <section>
+                <h2>Children's privacy</h2>
+                <p>MyStickers does not knowingly collect data from anyone, regardless of age.</p>
+            </section>
+
+            <section>
+                <h2>Contact</h2>
+                <p>Questions about this policy? Write to <a href="mailto:YOUR_EMAIL_HERE">YOUR_EMAIL_HERE</a>.</p>
+            </section>
+
+            <section>
+                <h2>Changes to this policy</h2>
+                <p>If we change the policy materially, we will update the "Last updated" date at the top of this page.</p>
+            </section>
+        </div>
+
+        <!-- Deutsch -->
+        <div id="lang-de" class="lang-block">
+            <section>
+                <p>MyStickers respektiert deine Privatsphäre. Die App ist so konzipiert, dass sie vollständig auf deinem Gerät arbeitet. Wir sammeln, übertragen oder verkaufen keine personenbezogenen Daten.</p>
+            </section>
+
+            <section>
+                <h2>Was MyStickers NICHT tut</h2>
+                <ul>
+                    <li>Wir erfassen keine personenbezogenen Daten.</li>
+                    <li>Wir verwenden keine Analytik, Werbe-SDKs oder Drittanbieter-Tracker.</li>
+                    <li>Wir übertragen deine Sticker, Fotos oder andere Daten nicht an unsere Server — wir betreiben keine Server.</li>
+                    <li>Wir verlangen kein Benutzerkonto.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Was MyStickers speichert</h2>
+                <ul>
+                    <li>Alle Sticker, Tags, Kategorien und Einstellungen werden lokal auf deinem Gerät gespeichert.</li>
+                    <li>Die optionale iCloud-Synchronisation nutzt Apples iCloud-Key-Value-Store sowie den iCloud-Container deiner Apple-ID. Diese Daten bleiben in deiner persönlichen iCloud und sind für uns nicht zugänglich.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Welche Berechtigungen wir anfragen</h2>
+                <ul>
+                    <li><strong>Fotomediathek-Zugriff</strong>: wird nur abgefragt, wenn du ein Foto als Sticker importieren möchtest. Im Hintergrund greift die App nie auf deine Mediathek zu.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>iMessage-Erweiterung</h2>
+                <p>Die zugehörige iMessage-Sticker-Tastatur liest ausschließlich die Sticker, die du in der Host-App erstellt hast — über einen geteilten lokalen Container. Sie überträgt keine Daten.</p>
+            </section>
+
+            <section>
+                <h2>Teilen</h2>
+                <p>Wenn du auf „Teilen" tippst, wird das systemeigene iOS-Share-Sheet verwendet. Wir haben keinen Einblick oder Kontrolle darüber, was passiert, nachdem eine Datei die App verlassen hat.</p>
+            </section>
+
+            <section>
+                <h2>Datenschutz von Kindern</h2>
+                <p>MyStickers erfasst wissentlich keine Daten von irgendwem — unabhängig vom Alter.</p>
+            </section>
+
+            <section>
+                <h2>Kontakt</h2>
+                <p>Fragen zu dieser Richtlinie? Schreib an <a href="mailto:YOUR_EMAIL_HERE">YOUR_EMAIL_HERE</a>.</p>
+            </section>
+
+            <section>
+                <h2>Änderungen dieser Richtlinie</h2>
+                <p>Bei wesentlichen Änderungen aktualisieren wir das Datum „Last updated" oben auf dieser Seite.</p>
+            </section>
+        </div>
+
+        <footer>
+            MyStickers · made by DYHY
+        </footer>
+    </div>
+
+    <script>
+        function setLang(lang) {
+            document.querySelectorAll('.lang-block').forEach(el => el.classList.remove('active'));
+            document.getElementById('lang-' + lang).classList.add('active');
+            document.querySelectorAll('.lang-switch a').forEach(el => el.classList.remove('active'));
+            document.getElementById('btn-' + lang).classList.add('active');
+            try { history.replaceState(null, '', '#' + lang); } catch (e) {}
+        }
+        // Honor URL hash on load
+        const hash = (location.hash || '').replace('#', '');
+        if (hash === 'de' || hash === 'en') setLang(hash);
+        // Honor browser language as default if no hash given
+        else if ((navigator.language || '').toLowerCase().startsWith('de')) setLang('de');
+    </script>
+</body>
+</html>
